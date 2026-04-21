@@ -1,0 +1,20 @@
+{
+  "name": "originals",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.0.9"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^9.3.3",
+    "@babylonjs/inspector": "^9.3.3",
+    "@babylonjs/loaders": "^9.3.3"
+  }
+}
